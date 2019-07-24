@@ -67,7 +67,7 @@ body a:link{
 }
 .column {
   float: left;
-  width: 45%;
+  width: 50%;
 }
 .column:nth-child(odd){
     margin-right: 5%;
@@ -187,4 +187,9 @@ h3 iframe{
 .note{
     font-size: 13px !important;
     font-style: italic;
+}
+
+.slide-1{
+    max-width: 100%;
+    height: auto;
 }
