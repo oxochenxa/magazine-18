@@ -39,9 +39,9 @@ input[type=text], input[type=tel], textarea {
     -webkit-appearance: none;
 }
 p, ul{
-    font-family: Helvetica;
     font-size: 17px !important;
     line-height: 30px !important;
+    text-align: left;
 }
 /*body{
     background-color: black;
@@ -75,13 +75,7 @@ body a:link{
   float: left;
   width: 50%;
 }
-.column:nth-child(odd){
-    margin-right: 5%;
-}
 
-.column:nth-child(even){
-    margin-left: 5%;
-}
 .row:after {
   content: "";
   display: table;
@@ -280,6 +274,133 @@ h3 iframe{
     width: 110px;
 }
 
-.swiper-slide{
-    align-items: baseline !important;
+.p-right h3{
+    text-align: left;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 30%;
+}
+
+.page-slide{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.p-left{
+    width: 45%;
+}
+
+.p-right{
+    width: 55%;
+}
+
+.p-left img{
+    width: 100%;
+}
+
+.content-right{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+hr{
+    margin-top: 50px;
+}
+
+.line{
+    border: 2px solid black;
+}
+
+p{
+    margin-bottom: 20px;
+}
+
+.bg-color{
+    background-color: blue;
+}
+
+.content-s{
+    margin-top: 40%;
+}
+
+.infoprod {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    padding: 10px 5px;
+    margin: 0 85px;
+    display: inline-block;
+    border: 1px solid #eee;
+}
+
+.infoprod .image, .infoprod-inline .image {
+    float: left;
+    width: 36%;
+}
+
+article a {
+    color: #288ad6;
+    font-size: 16px;
+}
+
+.infoprod .image img, .infoprod-inline .image img {
+    width: 150px;
+}
+
+article img {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.infoprod .infor, .infoprod-inline .infor {
+    text-align: left;
+    float: right;
+    width: 64%;
+}
+
+.infoprod .infor figure, .infoprod-inline .infor figure {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #777;
+}
+
+article p, article h2, article h3 {
+    width: 600px;
+    margin: 20px auto;
+    font-size: 16px;
+    color: #333;
+    line-height: 28px;
+}
+
+article ul, ol {
+    margin: 10px auto;
+    width: 600px;
+}
+
+article ul li {
+    list-style-type: disc;
+    margin-left: 15px;
+    line-height: 25px;
+    font-size: 16px;
+}
+
+.infoprod .infor h3, .infoprod-inline .infor h3 {
+    margin: 0;
+    color: #288ad6;
+    font-weight: 600;
+    font-size: 16px;
+    overflow: hidden;
+    max-width: 290px;
+    line-height: 1.5;
+}
+
+.infoprod a:link{
+    color:#288ad6 !important;
+    -webkit-text-fill-color: #288ad6;
 }
