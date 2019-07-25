@@ -13,7 +13,8 @@
   <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Exo&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/aos.css">
+  <link rel="stylesheet" type="text/css" href="css/aos.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 	<script src="js/aos.js"></script>
   <!-- Link Swiper's CSS -->
   <link rel="stylesheet" href="css/swiper.min.css">
@@ -58,14 +59,17 @@
   </style>
 </head>
 <body>
+  	<script>
+        AOS.init();
+      </script><!---->
   <!-- Swiper -->
   <div class="swiper-container">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
         <div class="slide-1">
-          <div class="wt-s1 wt-phone pa"></div>
-          <div class="wt-s2 wt-phone pa"></div>
-          <div class="wt-s3 wt-phone pa"></div>
+          <div class="wt-s1 wt-phone pa animated fadeIn" style="visibility: visible; animation-duration: 1.2s; animation-delay: 0.6s; animation-name: fadeIn;"></div>
+          <div class="wt-s2 wt-phone pa animated fadeIn" style="visibility: visible; animation-duration: 1.2s; animation-delay: 0.8s; animation-name: fadeIn;"></div>
+          <div class="wt-s3 wt-phone pa animated fadeIn" style="visibility: visible; animation-duration: 1.2s; animation-delay: 0.8s; animation-name: fadeIn;"></div>
           <div class="wt-content pa">
             <div class="wtc-title"> Galaxy note 10</div>
             <div class="wtc-subtitle">Tổng hợp thông tin rò rỉ mới đáng quan tâm nhất</div>
@@ -81,7 +85,9 @@
       <div class="swiper-slide">
         <div class="page-slide">
           <div class="p-left">
-            <img src="images/img01.png">
+            <div data-aos="fade-right" ata-aos-easing="linear" data-aos-delay="100">
+                <img src="images/img01.png">
+            </div>	
           </div>
           <div class="p-right">
             <div class="content-right">
@@ -155,11 +161,19 @@
                     <p>Dòng Galaxy Note được Samfans và người dùng yêu thích nhờ có thêm bút S-Pen "thần thánh". Tuy nhiên, đến thời điểm hiện tại thì lại không có nhiều thông tin về S-Pen của Galaxy Note 10.</p>
                     <p>Ít ngày trước, có tin cho rằng mẫu <a href="https://www.thegioididong.com/dtdd-samsung" target="_blank" title="smartphone Samsung" type="smartphone Samsung">smartphone Samsung</a> mới sẽ là chiếc <a href="https://www.thegioididong.com/dtdd" target="_blank" title="điện thoại" type="điện thoại">điện thoại</a> đầu tiên dùng <a href="https://www.thegioididong.com/tin-tuc/galaxy-note-10-la-smartphone-dau-tien-co-ram-12-gb-lppddr5-1180308" target="_blank" title="RAM 12 GB chuẩn LPDDR5" type="RAM 12 GB chuẩn LPDDR5">RAM 12 GB chuẩn LPDDR5</a> cải thiện đáng kể tốc độ truyền tải và hiệu suất tiêu thụ năng lượng so với RAM LPDDR4X.</p>
                     <p>Bộ nhớ trong tiêu chuẩn của Galaxy Note 10 là 128 GB, còn của Galaxy Note 10 Pro là 256 GB. Dung lượng lưu trữ tối đa sẽ lên đến 1 TB. Tuy nhiên, chỉ&nbsp;<a href="https://www.thegioididong.com/dtdd/samsung-galaxy-note-10-pro" target="_blank" title="Galaxy Note 10 Pro" type="Galaxy Note 10 Pro">Galaxy Note 10 Pro</a>&nbsp;mới có khe cắm thẻ nhớ microSD.</p>
+                    <p>Xem thêm:&nbsp;<a href="https://www.thegioididong.com/tin-tuc/cau-hinh-samsung-galaxy-note-10-se-co-diem-hieu-nang-manh-co-nao--1180490" target="_blank" title="Cấu hình Samsung Galaxy Note 10 sẽ có điểm hiệu năng mạnh cỡ nào?" type="Cấu hình Samsung Galaxy Note 10 sẽ có điểm hiệu năng mạnh cỡ nào?">Cấu hình Samsung Galaxy Note 10 sẽ có điểm hiệu năng mạnh cỡ nào?</a></p>
                 </div>
               </div>
             </div>
       </div>
-      <div class="swiper-slide">Slide 7</div>
+      <div class="swiper-slide">
+        <div class="slide-7">
+          <div class="wt-s4 wt-phone"></div>
+          <div class="wt-s5 wt-phone"></div>
+          <div class="wt-s6 wt-phone"></div>
+          <div class="text-s7">SAMSUNG</div>
+          </div>
+        </div>
       <div class="swiper-slide">
         <div class="page-slide">
           <div class="p-left">
