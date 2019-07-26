@@ -55,9 +55,24 @@ body a:link{
     color: black;
     -webkit-text-fill-color: black;
     font-weight: bold;
-    text-decoration: none;
+    /*text-decoration: none;*/
 
 }
+
+.link-white a:link{
+    color: white;
+    -webkit-text-fill-color: white;
+    font-weight: bold;
+}
+
+.link-white h3 {
+    color: white;
+}
+
+.link-white .line{
+    border: 2px solid white;
+}
+
 .block-header img{
     width: 100%;
     margin-bottom: 20px;
@@ -219,6 +234,7 @@ h3 iframe{
     z-index: auto;
 }
 
+
 .wt-phone{
     background-repeat: no-repeat;
     background-size: contain;
@@ -233,6 +249,7 @@ h3 iframe{
     left: 0;
     transform: translate(0%, -50%);
     width: 43%;
+    height: 60%;
     padding-left: 2%;
     text-align: left;
 }
@@ -241,8 +258,8 @@ h3 iframe{
     color: #000;
     font-size: 5vw;
     margin-bottom: 5%;
-    text-transform: uppercase;
     font-family: 'Exo', sans-serif;
+    font-weight: bold;
 }
 
 .wtc-subtitle{
@@ -253,7 +270,8 @@ h3 iframe{
     text-transform: uppercase;
     line-height: 2.5vw;
     width: 70%;
-    margin-bottom: 7%;
+    margin-bottom: 8%;
+    margin-top: 10%;
 }
 
 .wtc-sapo {
@@ -262,6 +280,10 @@ h3 iframe{
     line-height: 2vw;
     width: 80%;
     margin-bottom: 15%;
+}
+
+.wt-author{
+    margin-top: 30%;
 }
 
 .wta-col {
@@ -306,7 +328,8 @@ h3 iframe{
 }
 
 hr{
-    margin-top: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .line{
@@ -427,29 +450,49 @@ article ul li {
 
 .wt-s4{
     background-image: url("../images/img06/3.png");
-    width: 22%;
     left: 52%;
     padding-top: 27%;
     bottom: 20%;
     width: 55%;
+    z-index: 2;
 }
 
 .wt-s5{
     background-image: url("../images/img06/4.png");
-    width: 22%;
     left: 52%;
     padding-top: 27%;
     bottom: 20%;
     width: 55%;
+    z-index: 2;
 }
 
 .wt-s6{
     background-image: url("../images/img06/5.png");
-    width: 22%;
     left: 52%;
     padding-top: 27%;
     bottom: 20%;
     width: 55%;
+    z-index: 2;
 }
 
+.wt-s8{
+    background-image: url(../images/img06/2.png);
+    padding-top: 27%;
+    bottom: 20%;
+    width: 55%;
+    transform: scale(1.8,1.8);
+    position: absolute;
+    left: 22.5%;
+    z-index: 1;
+}
 
+.logo-sam{
+    position: absolute;
+    left: -1.5%;
+    z-index: 1;
+}
+
+.wt-s4, .wt-s5, .wt-s6{
+    transform: scale(1.5,1.5);
+    left: 24%;
+}
