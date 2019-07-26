@@ -496,3 +496,9 @@ article ul li {
     transform: scale(1.5,1.5);
     left: 24%;
 }
+
+.slide-l1{
+    background-image: url("../images/img01.png");
+    height: 100%;
+    width: 100%;
+}
